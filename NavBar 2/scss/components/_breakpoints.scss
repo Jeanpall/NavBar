@@ -1,0 +1,116 @@
+/*== Dispositivo Moviles Responsive ==*/
+@media screen and (max-width: 640px){
+    .container {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    
+    .show-menu {
+        transform: translate(20%);
+    }
+}
+
+/*== Dispositivo Tablets Responsive ==*/
+@media screen and (max-width: 1023px){
+    .container {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    
+    .show-menu {
+        transform: translate(20%);
+    }
+}
+
+
+/*== Dispositivo Escritorio Responsive ==*/
+@media screen and (max-width: 1024px){
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .section {
+        padding: 7rem 0 2rem;
+    }
+
+    .header__nav {
+        height: calc(var(--header-height) + 1.5rem);
+    }
+
+    .nav {
+        &__shape {
+            width: 350px;
+            height: 350px;
+        }
+
+        &__mask {
+            width: 100px;
+            height: 100px;
+            border-radius: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        &__img {
+            width: 100px;
+        }
+
+        &__link {
+            font-size: --big-font-size;
+
+            & span {
+                font-size: 2rem;
+            }
+        }
+    }
+
+    .show-menu {
+        transform: translate(20%);
+    }
+}
+
+/*== Dispositivo Responsive Tamaño 4k (1921px) ==*/
+@media screen and (max-width: 1360px){
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .section {
+        padding: 7rem 0 2rem;
+    }
+
+    .header__nav {
+        height: calc(var(--header-height) + 1.5rem);
+    }
+
+    .nav {
+        &__shape {
+            width: 350px;
+            height: 350px;
+        }
+
+        &__mask {
+            width: 100px;
+            height: 100px;
+            border-radius: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        &__img {
+            width: 100px;
+        }
+
+        &__link {
+            font-size: --big-font-size;
+
+            & span {
+                font-size: 2rem;
+            }
+        }
+    }
+
+    .show-menu {
+        transform: translate(30%);
+    }
+}
